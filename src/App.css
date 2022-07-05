@@ -4,8 +4,8 @@ body{
 }
 
 .card-img{
-  width: 250px;
-  height: 335px;
+  width: 270px;
+  height: 300px;
   border-radius: 10px;
   /* display: inline-block; */
  
@@ -30,4 +30,24 @@ body{
 
 .card{
 padding: 20px;
+display: flex;
+}
+
+.card-details{
+  padding-left: 20px;
+}
+
+.card-location{
+  display: flex;
+  align-items: center;
+  /* alternate for justify-content with custom gap; */
+  gap: 10px; 
+}
+
+hr{
+  margin: 20px;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  padding: 0;
 }
